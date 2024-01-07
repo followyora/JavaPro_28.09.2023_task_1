@@ -14,6 +14,7 @@ public class Main {
         // В другом пакете, нет доступа myCar.model = "NONE"
         myCar.setEnginePower(500);
         myCar.setBrand("NoneBrand");
+        //empty git practice
 
         //Выводим инфо о машине
         System.out.println("Type: " + myCar.type);

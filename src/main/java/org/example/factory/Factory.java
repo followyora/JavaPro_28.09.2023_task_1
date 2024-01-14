@@ -5,7 +5,7 @@ import org.example.cars.Automobile;
 
 public class Factory {
 
-    // Метод для производства спорткара
+    // Creating sportCar
     public static Automobile produceSportsCar(String model, int enginePower, String brand) {
         Automobile sportsCar = new Automobile();
         sportsCar.type = Automobile.CarType.SPORTS_CAR;
@@ -15,7 +15,7 @@ public class Factory {
         return sportsCar;
     }
 
-    // Метод для производства грузовика
+    // Creating track
     public static Automobile produceTruck(String model, int enginePower, String brand) {
         Automobile truck = new Automobile();
         truck.type = Automobile.CarType.TRUCK;
@@ -25,7 +25,7 @@ public class Factory {
         return truck;
     }
 
-    // Метод для производства легкового автомобиля
+    // Creating regular light car
     public static Automobile produceSedan(String model, int enginePower, String brand) {
         Automobile sedan = new Automobile();
         sedan.type = Automobile.CarType.SEDAN;

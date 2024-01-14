@@ -5,18 +5,18 @@ public class Automobile {
         TRUCK, SPORTS_CAR, SEDAN
     }
 
-    // Публичное поле
+    // Public field
     public CarType type;
 
-    //Поле без модификатора доступа
+    //Without modification
     public String model;
 
-    //Приватные поля
+    //Private field
     private int enginePower;
     private String brand;
 
     public Automobile() {
-        //Легковой по умолчанию
+        //Light car
         this.type = CarType.SEDAN;
     }
 
